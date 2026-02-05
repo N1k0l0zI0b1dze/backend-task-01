@@ -1,0 +1,12 @@
+Task 1: Create a "User Utilities" Module
+Instead of simple calculator math, let's build something we might use in a real app to handle user data.
+
+Setup: Create a folder named user-utils.
+The Module: Create a file named formatting.js.
+Functions: Implement two functions inside it:
+fixName(name): Takes a messy string (e.g., " aNNA "), trims whitespace, lowers the case, and capitalizes the first letter (Result: "Anna").
+maskEmail(email): Takes an email (e.g., "mindia@example.com") and hides the middle part (Result: "m*****@example.com").
+Main App: Create app.js.
+Import your functions.
+Test them with real data and print the results using console.log.
+Challenge: Try doing this first with CommonJS, then Create a separate folder and try it with ES6 Modules.
